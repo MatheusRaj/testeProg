@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Lista de Serviços</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-card *ngFor="let item of servicos">
+      <ion-card-header>
+        <h1>{{ item.service }}</h1>
+      </ion-card-header>
+
+      <ion-card-content>
+        <p>{{ item.name }} - {{ item.cidade }} - {{ item.uf }} </p>
+      </ion-card-content>
+
+      <ion-row text-center>
+
+        <ion-col>
+          <a href="tel:{{ item.phone }}" ion-button icon-left clear small>
+            <ion-icon name="call"></ion-icon>
+            <div>Ligar</div>
+          </a>
+        </ion-col>
+      </ion-row>
+
+
+
+    </ion-card>
+  </ion-list>
+
+</ion-content>
