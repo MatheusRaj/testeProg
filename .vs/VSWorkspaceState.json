@@ -3,10 +3,8 @@
     "",
     "\\src",
     "\\src\\pages",
-    "\\src\\pages\\list",
-    "\\src\\providers",
-    "\\src\\providers\\servicos"
+    "\\src\\pages\\home"
   ],
-  "SelectedNode": "\\src\\providers\\servicos\\servicos.ts",
+  "SelectedNode": "\\src\\pages\\home\\home.html",
   "PreviewInSolutionExplorer": false
 }

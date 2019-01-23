@@ -16,9 +16,10 @@
     <br>
     <button ion-button block (click)="Sair()">Sair</button>
   </div>
+
   <div *ngIf="user == null">
     <br>
-    <h3>Login / Cadastro</h3>
+    <h2>Login / Cadastro</h2>
     <ion-item>
       <ion-label floating>
         <ion-icon name='person'>
@@ -27,6 +28,8 @@
       <ion-input type="text" #usuario></ion-input>
     </ion-item>
 
+    <br>
+    <h1>Login / Cadastro</h1>
     <ion-item>
       <ion-label floating>
         <ion-icon name='lock'>
@@ -34,7 +37,9 @@
       </ion-label>
       <ion-input type="password" #senha></ion-input>
     </ion-item>
+
     <br>
+    <h2>Login / Cadastro</h2>
     <button ion-button block
             (click)="LoginComEmail()">
       Login
